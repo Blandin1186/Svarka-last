@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Arsenal';
+  src: url("../fonts/ArsenalRegular.woff") format("woff"), url("../fonts/ArsenalRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arsenal';
+  src: url("../fonts/ArsenalBold.woff") format("woff"), url("../fonts/ArsenalBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrap {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+.content {
+  max-width: 1230px;
+  width: 100%;
+  margin: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.header_menu li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 119px;
+}
+
+.header_contacts {
+  max-width: 185px;
+  text-align: right;
+}
+
+header {
+  min-height: 119px;
+  box-shadow: 0 1px 46px rgba(0, 0, 0, 0.11);
+  background-color: #fefefe;
+}
+
+.header_logo {
+  max-width: 276px;
+  width: 100%;
+}
+
+.header_menu {
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header_menu a {
+  color: #515151;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.header_menu a:hover {
+  color: #000056;
+  border-bottom: 1px solid rgba(0, 0, 56, 0.15);
+}
+
+.contacts_phone {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contacts_mail {
+  color: #000056;
+  font-size: 18px;
+}
+
+.contacts_callback {
+  background: transparent;
+  border: transparent;
+  outline: none;
+  color: #000000;
+  font-size: 14px;
+}
+.contacts_callback:hover {
+  border-bottom: 1px solid rgba(187, 187, 187, 0.31);
+}
+
+.phone_ico {
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  background: url(../img/phone_call.png);
+}
+
+.title {
+  color: #515151;
+  font-family: Arsenal;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39.21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main .bred_crumps {
+  width: 100%;
+  background-color: #000055;
+  height: 30px;
+}
+
+.foto_flex_block {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+}
+
+h1 h2 h3 {
+  text-transform: uppercase;
+}
+
+
+/*# sourceMappingURL=stylesheet.css.map */
